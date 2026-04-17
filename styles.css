@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo CSS Sencillo</title>
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: Arial, sans-serif; /* Fuente limpia y legible */
+            background-color: #f4f4f4;      /* Fondo gris claro */
+            color: #333;                    /* Texto gris oscuro */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Encabezado principal */
+        h1 {
+            color: #007BFF; /* Azul */
+            text-align: center;
+        }
+
+        /* Párrafos */
+        p {
+            line-height: 1.6; /* Espaciado entre líneas */
+        }
+
+        /* Botón estilizado */
+        .btn {
+            display: inline-block;
+            background-color: #28a745; /* Verde */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Efecto hover en el botón */
+        .btn:hover {
+            background-color: #218838; /* Verde más oscuro */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Página con CSS</h1>
+    <p>Este es un ejemplo de cómo aplicar estilos básicos con CSS para mejorar la apariencia de una página web.</p>
+    <a href="#" class="btn">Haz clic aquí</a>
+
+</body>
+</html>
